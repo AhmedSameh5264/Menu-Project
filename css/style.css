@@ -1,0 +1,138 @@
+@font-face {
+  font-family: Outfit;
+  src: url(../fonts/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: YoungSerif;
+  src: url(../fonts/YoungSerif-Regular.ttf);
+}
+body {
+  overflow-x: hidden;
+}
+.Prodc-def {
+  margin-top: 3%;
+}
+.Prodc-def h2 {
+  font-family: YoungSerif;
+  color: hsl(24, 5%, 18%);
+}
+.Prodc-def p {
+  font-family: Outfit;
+  width: 53%;
+  color: hsl(30, 10%, 34%);
+}
+.prep {
+  margin-left: 2%;
+}
+.secone {
+  margin-top: 4%;
+}
+.prep h4 {
+  font-family: YoungSerif;
+  font-size: 20px;
+  color: hsl(332, 51%, 32%);
+}
+.prep li {
+  font-family: Outfit;
+  font-weight: 400;
+  padding-left: 15px;
+  color: hsl(30, 10%, 34%);
+}
+.prep ::marker {
+  color: hsl(332, 51%, 32%);
+}
+.sp1 {
+  font-weight: 700;
+}
+.ingred {
+  margin-top: 4%;
+}
+.ingred h2 {
+  font-family: YoungSerif;
+  color: hsl(14, 45%, 36%);
+}
+.ingred li {
+  font-family: Outfit;
+  padding-left: 20px;
+  color: hsl(30, 10%, 34%);
+  padding: 5px 0 5px 15px;
+}
+.ingred ::marker {
+  color: hsl(14, 45%, 36%);
+}
+.instruc {
+  margin-top: 4%;
+}
+.instruc h2 {
+  font-family: YoungSerif;
+  color: hsl(14, 45%, 36%);
+}
+.instruc li {
+  font-family: Outfit;
+  padding: 6px 0 6px 15px;
+  color: hsl(30, 10%, 34%);
+  width: 52%;
+}
+.instruc ::marker {
+  font-weight: 700;
+  color: hsl(14, 45%, 36%);
+}
+.nutrit {
+  margin-top: 4%;
+}
+.nutrit h2 {
+  font-family: YoungSerif;
+  color: hsl(14, 45%, 36%);
+}
+.nutrit p {
+  font-family: Outfit;
+  color: hsl(30, 10%, 34%);
+}
+.nutrit tr td:first-child {
+  color: hsl(30, 10%, 34%);
+}
+.nutrit tr td:last-child {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+.nutrit table{
+    width: 48%;
+    margin-left: 2%;
+}
+.nutrit td{
+    padding-bottom: 3%;
+    font-family: Outfit;
+}
+
+@media(max-width:375px){
+    .Prodc-def p {
+        width: 94%;
+    }
+    .Prodc-def h2 {
+        width: 86%;
+    }
+    .prep li {
+        width: 80%;
+    }
+    .instruc li {
+        width: 95%;
+    }
+    .nutrit td {
+        padding-bottom: 5%;
+    }
+    .nutrit table {
+        width: 83%;
+        margin-left: 9%;
+    }
+    .nutrit p {
+        width: 93%;
+    }
+    .instruc li {
+        width: 95%;
+    }
+    .prep li {
+        width: 80%;
+        padding: 6px 0 6px 15px;
+    }
+
+}
